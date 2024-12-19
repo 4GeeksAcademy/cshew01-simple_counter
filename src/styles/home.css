@@ -1,0 +1,26 @@
+.timerContainer {
+    display: flex;
+    width: 30rem;
+    height: 5rem;
+    background-color: rgb(29, 28, 28);
+    border-radius: 1rem;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    margin:auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.timerBox {
+    width: 4rem;
+    height: 3rem;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 1rem;
+    background-color: rgb(63, 57, 57);
+    text-align: center;
+    padding: 10px;
+    color: rgb(211, 199, 199);
+}
