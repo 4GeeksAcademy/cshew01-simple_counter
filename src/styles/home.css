@@ -7,7 +7,7 @@
     border-color: blue;
     border-width: 2px;
     border-style: solid;
-    margin:auto;
+    margin: 1rem auto;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -23,4 +23,40 @@
     text-align: center;
     padding: 10px;
     color: rgb(211, 199, 199);
+}
+
+.buttonRow {
+    width: 14rem;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button {
+    border: black solid 2px;
+    width: 4rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+}
+
+.start {
+    color: white;
+    background: green;
+    /* &:hover {
+        color: #af5b5e;   */
+}
+
+.stop {
+    color: white;
+    background: red;
+    /* &:hover {
+        color: #af5b5e;   */
+}
+
+.reset {
+    color: black;
+    background: red;
+    /* &:hover {
+        color: #af5b5e;   */
 }
