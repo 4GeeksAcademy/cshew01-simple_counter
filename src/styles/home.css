@@ -26,7 +26,7 @@
 }
 
 .buttonRow {
-    width: 14rem;
+    width: 18rem;
     display: flex;
     margin: auto;
     align-items: center;
@@ -35,28 +35,21 @@
 
 .button {
     border: black solid 2px;
-    width: 4rem;
+    width: 8rem;
     border-radius: 5px;
     box-shadow: 2px 2px 5px;
 }
 
-.start {
-    color: white;
-    background: green;
-    /* &:hover {
-        color: #af5b5e;   */
+.button:hover {
+    background: darkgrey;
 }
 
-.stop {
+.pause {
     color: white;
-    background: red;
-    /* &:hover {
-        color: #af5b5e;   */
+    background: green;
 }
 
 .reset {
     color: black;
     background: red;
-    /* &:hover {
-        color: #af5b5e;   */
 }
