@@ -37,19 +37,19 @@
     border: black solid 2px;
     width: 8rem;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px black;
 }
 
 .button:hover {
-    background: darkgrey;
+    background-color: rgb(73, 115, 250);
 }
 
 .pause {
     color: white;
-    background: green;
+    background-color: green;
 }
 
 .reset {
     color: black;
-    background: red;
+    background-color: red;
 }
